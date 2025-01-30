@@ -34,5 +34,5 @@ for i_part in range(0, n_parts):
 
 # the output file is used to generate the pronunciation dictionary using the BAS web services, more specifically:
 # the G2P service: https://clarin.phonetik.uni-muenchen.de/BASWebServices/interface/Grapheme2Phoneme
-# in this case specifying the language to Dutch (NL) and using the output format lex, output symbol sampa → this results in a file with all the words
+# in this case specifying the language to Dutch (NL) and using the output format lex, output symbol x-sampa → this results in a file with all the words
 # and the corresponding phoneme segmentation
