@@ -10,7 +10,7 @@ The EEG folder and the TRF folder are not present (as well as the subtlex file a
 
 # Useful links
 * for making transcripts, use [WhisperX](https://github.com/m-bain/whisperX)
-* for making phoneme and word segmentations, the textgrids, use [BAS services - webMAUS Basic](https://clarin.phonetik.uni-muenchen.de/BASWebServices/interface/WebMAUSBasic)
+* for making phoneme and word segmentations, the textgrids, use [BAS services - webMAUS Basic](https://clarin.phonetik.uni-muenchen.de/BASWebServices/interface/WebMAUSBasic) (for the textgrids, sometimes the phoneme dictionary might deviate from the phonemes used in the G2P service. This should be checked! If they do not converge -for Dutch sounds like 'ui', 'oe' can be a problem- use the service Pipeline without ASR with Expert Option: Modus (MAUS) set to Forced Aligner)
 * for investigating the quality of your phoneme and word segmentation, use [mPRAAT toolbox](https://www.fon.hum.uva.nl/praat/)
 * for making language models, the simple n-gram model, use the [ken-lm toolbox](https://github.com/kpu/kenlm)
 * for getting the word probabilities, use [subtlex](http://crr.ugent.be/programs-data/subtitle-frequencies/subtlex-nl)
